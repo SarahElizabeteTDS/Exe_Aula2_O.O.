@@ -6,11 +6,11 @@
     for ($i = 1; $i < $num2; $i++) 
     { 
         $num--;
-        if ($num == 1) 
+        if ($num > 1) 
         {
-            print $num;
-        }else{
             print $num . ",";
+        }else{
+            print $num . "\n";
         }
        
     }
