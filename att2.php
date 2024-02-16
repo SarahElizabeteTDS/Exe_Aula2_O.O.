@@ -3,10 +3,10 @@
     $num = (int) readline("Informe um número para que o programa possa imprimir seus antecessores: ");
     $num2 = $num;
 
-    for ($i = 0; $i < $num2; $i++) 
+    for ($i = 1; $i < $num2; $i++) 
     { 
         $num--;
-        if ($num == 0) 
+        if ($num == 1) 
         {
             print $num;
         }else{
